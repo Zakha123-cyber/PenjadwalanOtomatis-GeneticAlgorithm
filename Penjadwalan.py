@@ -56,10 +56,8 @@ def main_genetic_algorithm():
     for mk, jadwal in zip(mata_kuliah, jadwal_terbaik):
         print(f"{mk}: {jadwal}")
 
-# main_genetic_algorithm()
-
 def tambah_jadwal():
-    global mata_kuliah, waktu, ruangan, dosen  # Pastikan akses ke variabel global
+    global mata_kuliah, waktu, ruangan, dosen
 
     mk = input("Masukkan mata kuliah: ")
     waktu_baru = input("Masukkan waktu: ")
